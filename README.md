@@ -28,7 +28,7 @@ Permite que você declare as bibliotecas que dependem.
 Descobre quais versões dos pacotes que podem e precisam ser instalados e instala-los (ou seja, ele baixa-los em seu projeto).
 Veja o capítulo Uso básico para mais detalhes sobre dependências declarando.
 
-## Requerimentos do sistema
+###### Requerimentos do sistema
 
 Compositor requer PHP 5.3.2+ para ser executado. Algumas configurações do PHP sensíveis e compilar bandeiras também são necessários,
 mas quando se utiliza o instalador você será avisado sobre quaisquer incompatibilidades.
