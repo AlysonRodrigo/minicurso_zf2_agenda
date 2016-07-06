@@ -38,7 +38,8 @@ sudo ./xampp-linux-x64-5.6.23-0-installer.run
 
 O processo de instalação do xampp é iniciado,
 
-[[https://www.edivaldobrito.com.br/wp-content/uploads/2013/12/instalador-xampp.png|alt=octocat]]
+![URL](https://www.edivaldobrito.com.br/wp-content/uploads/2013/12/instalador-xampp.png)
+
 
 Instalando e usando o Composer
 ---------------------------
