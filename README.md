@@ -21,19 +21,24 @@ O pacote de código aberto do XAMPP foi criada para ser extremamente fácil de i
 ###### Obtendo o arquivo de instalação do Xampp
 
 * Acesse a site [clique aqui](https://www.apachefriends.org/pt_br/index.html) para baixar o arquivo de instalação
-* Selecione de acordo com seu sistema operacional e sua arquitetura (Linux,Windows, MAC OS X);
+* Selecione de acordo com seu sistema operacional(Linux,Windows, MAC OS X) e sua arquitetura(32 bits,64 bits) ;
 
 ###### Instalando o Xampp no linux
 
-O arquivo de instalação do xampp para o sistema operacional Linux contem a extensão .run acesso o diretório onde o arquivo foi baixado pelo terminal de comandos.
+O arquivo de instalação do xampp para o sistema operacional Linux contém a extensão .run.
+Acesse o diretório onde o arquivo foi baixado pelo terminal de comandos.
 
-Ex: Fiz o download do xampp e ele foi baixado na pasta default do linux `/home/alyson/Downloads`, execute o comando abaixo para acessar o diretorio do arquivo e depois
-execute o arquivo de instalação do xampp como super usuário.
+Ex: Fiz o download do xampp e ele foi baixado na pasta default do linux `/home/alyson/Downloads`, execute os comandos abaixo para acessar o diretório do arquivo e
+instalação do xampp como super usuário.
 
 ```
 cd /home/alyson/Downloads
 sudo ./xampp-linux-x64-5.6.23-0-installer.run
 ```
+
+O processo de instalação do xampp é iniciado,
+
+[[https://www.edivaldobrito.com.br/wp-content/uploads/2013/12/instalador-xampp.png|alt=octocat]]
 
 Instalando e usando o Composer
 ---------------------------
