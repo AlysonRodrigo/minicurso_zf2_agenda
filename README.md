@@ -143,8 +143,13 @@ Selecione de acordo com sua plataforma
 ![URL](https://lh3.googleusercontent.com/o2vk0L7VRS1lWrk-jSFPzarInz_TMTui9_gS4CjOPQ_lDvUjjwZB3nCJJj-lZ6eiH_QXN_V9uDbl_G2bEQvgglKLPxYRKVIub8mrGEsHRXCk-240MCQY2ISMpLPA97dy9aP29lTNDatEldCcmXurQl_cPvqoufHUls-BIQwUxLjUqubI3_yXDfGZJwPQrlWNha6b2lCwDBNw9VSKLkrG8EHBDlxVJmL1Xg3HkAZ9LnRj3oEAi0kq3jBPFN1hcEqb-tXtPJNC4BzVj5ZVnqWmRzmMb8DbJo5GMfAfVG--FP05tzoxvrPfrSeiOj9hPEpzejRWc2S7oFr36o3cxwMt27hTOQwXSJXV0wbLrNXRmmEzfpqQCkDwkxJzu3XgBKHPOINGCUejCpirB5WHmGvOkHgZOHdwrNuDnYpGZGrEhdu8Pv5lmEXrAWkppLmE4boaI5_hPoAP93aFfYdJmWlZKLK9cTT4NNo4EVX_zPByLlYawiggWZVQWNe_pUSKPCrzg1Thh_-hfhsMtQMquIbdV1YFp3tvO2BYE67BtWt91_5oo6nuuEB8JFOScpgu2KQWEbsZKO4j8VzXvBGQOYeH8nW3AZs7Qn0=w1318-h668-no)
 
 
+Instalação e configuração inicial do Zend framework 2
+---------------------------
 
-###### Installation using a tarball with a local Composer
+O procedimento de instalação do Zend framework 2 para execução desse minicurso, restringira a obtençao
+ do skeleton do zend framework, atraves desse repositorio do projeto.
+
+ [Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Skeleton do zend framework 2 para configurações iniciais.
 
 If you don't have composer installed globally then another way to create a new ZF2 project is to download the tarball and install it:
 
