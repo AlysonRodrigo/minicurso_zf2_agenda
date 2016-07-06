@@ -18,7 +18,7 @@ Instalando e usando o Composer
 Composer é uma ferramenta para gerenciamento de dependência em PHP. Ele permite que você declare as bibliotecas
 que seu projeto depende e que irá gerenciar (instalação / atualização)-los para você.
 
-## Suponha
+###### Suponha
 
 Você tem um projeto que depende de um número de bibliotecas.
 Algumas dessas bibliotecas dependem de outras bibliotecas.
