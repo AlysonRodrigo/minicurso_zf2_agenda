@@ -35,8 +35,25 @@ mas quando se utiliza o instalador você será avisado sobre quaisquer incompati
 Para instalar pacotes a partir de fontes em vez de arquivos zip simples, você vai precisar git, svn, fóssil ou hg dependendo de como o pacote é controlado por versão.
 Compositor é multi-plataforma e nós nos esforçamos para fazê-lo funcionar igualmente bem em Windows, Linux e OSX.
 
+###### Instalação - Linux / Unix / OSX
 
-### Installation using a tarball with a local Composer
+Composer oferece um instalador conveniente que você pode executar diretamente a partir da linha de comando.
+Sinta-se livre para baixar esse arquivo ou revê-lo no GitHub se você deseja saber mais sobre o funcionamento interno do instalador.
+A fonte é PHP simples.
+
+Há, em suma, duas maneiras de instalar Composer. Localmente como parte de seu projeto, ou globalmente como uma vasta executável do sistema.
+
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === 'e115a8dc7871f15d853148a7fbac7da27d6c0030b848d9b3dc09e2a0388afed865e6a3d6b3c0fad45c48e2b5fc1196ae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
+
+O instalador irá apenas verificar algumas configurações do PHP e depois baixar composer.phar no seu diretório de trabalho.
+Este arquivo é o binário Composer. É um PHAR (arquivo PHP), que é um formato de arquivo para PHP que pode ser executado na linha de comando, entre outras coisas.
+
+###### Installation using a tarball with a local Composer
 
 If you don't have composer installed globally then another way to create a new ZF2 project is to download the tarball and install it:
 
