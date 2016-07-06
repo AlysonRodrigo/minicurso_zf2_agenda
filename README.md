@@ -1,11 +1,13 @@
 Minicurso Começando com Zend Framework 2 com Doctrine - 15ª Semana da Computação CI - UFPB
 =======================
 
-Introdução
+Pré-requisitos
 ------------
-Esta é uma aplicação simples, esqueleto usando a camada e módulo ZF2 MVC
-sistemas. Este pedido destina-se a ser usada como um ponto de partida para aqueles
-desejam começar a desenvolver aplicação WEB PHP com ZF2.
+* Banco de dados MYSQL - O MySQL já vem configurado no servidor xampp;
+* Xammp (Apache + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
+* Ambiente de desenvolvimento eclipse com PHP configurado [clique aqui](https://eclipse.org/pdt/#download) e escolha eclipse de acordo com sua arquitetura; 
+* Composer [clique aqui](https://getcomposer.org/download/) para baixar o composer em sua maquina;
+
 
 Installation using Composer
 ---------------------------
