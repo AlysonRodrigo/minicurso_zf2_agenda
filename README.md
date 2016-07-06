@@ -60,7 +60,7 @@ Abra o arquivo `/etc/profile` para criação da variável de ambiente xampp, no 
  export PATH=$XAMP_HOME:$PATH
 ```
 
-_ Encerre a sessão do seu computador ou reinicie. _
+Encerre a sessão do seu computador ou reinicie.
 
 Quando o computador iniciar, abra o terminal e digite o comando a baixo:
 
@@ -124,6 +124,24 @@ Para confirmar que o composer foi instalado corretamente dentro do diretorio `bi
 ```
 
 ![URL](https://lh3.googleusercontent.com/pT4Oq2laobgr2jN0DLETvhqIsfjx3zofC67hfCrlGqiKnCBj-XaP1hnbjwnyoS4j4ePlHAMaHhVzoXn31b8t46-9HoNVerdykP9IJW6mEk_SGyvHCJbes6llxKS4a3HA1Fmz6KTmP32WCIW_E91kaE6k26dk21T0B60iAmejCS7Pfu0psK0VPT7cCO7nU504_jqhNA1UGvxUk0QFqTvIrB_1xlDQR6NXMvG1-SQcIRifLDOF061Y-Ii9Or_KRERF3GjXelfhRfiTE3ygOjjrIlwejxwettBDKeOODr0ny6UHKbwlK0JTV70qIUT9oAyBbNFMivKGIfa0ASQku0B0yEfKp-C9iCu6yghP0xiGOn7aSYS_e0ry-vkvR8Y3PVsB8nsNt_nXe83arcVEIbXq5v_k6dmJxLl-1ErcYLT7HkqFbUffW4ueWBU5i1uZYAAWeOKTb_NuMp2ogyuxUyyAs-rmsfDJQlVPJCAIKmntJLloiIH7QpfPEdd7CRvuNF-crjrHgqtfbVacIIyK8MZ5mmeZGtO2eZjMNGSPFWAOed3C0XMMFXMPlFCYhGbzTm4aEVLaTGAtBm0QK58eqdS_WpSP9DG8_hU=w363-h21-no)
+
+
+Instalação e configuração do MySQL Workbench
+---------------------------
+
+MySQL Workbench é uma ferramenta visual unificada para arquitetos de banco de dados,
+desenvolvedores e DBAs. MySQL Workbench fornece modelagem de dados, desenvolvimento de SQL
+e ferramentas de administração abrangentes para configuração do servidor, administração de usuários,
+backup e muito mais. MySQL Workbench está disponível no Windows, Linux e Mac OS X.
+
+acesse o link abaixo para download da ferramenta:
+
+[SITE DO DOWNLOADO](http://dev.mysql.com/downloads/workbench/)
+
+Selecione de acordo com sua plataforma
+
+![URL](https://lh3.googleusercontent.com/o2vk0L7VRS1lWrk-jSFPzarInz_TMTui9_gS4CjOPQ_lDvUjjwZB3nCJJj-lZ6eiH_QXN_V9uDbl_G2bEQvgglKLPxYRKVIub8mrGEsHRXCk-240MCQY2ISMpLPA97dy9aP29lTNDatEldCcmXurQl_cPvqoufHUls-BIQwUxLjUqubI3_yXDfGZJwPQrlWNha6b2lCwDBNw9VSKLkrG8EHBDlxVJmL1Xg3HkAZ9LnRj3oEAi0kq3jBPFN1hcEqb-tXtPJNC4BzVj5ZVnqWmRzmMb8DbJo5GMfAfVG--FP05tzoxvrPfrSeiOj9hPEpzejRWc2S7oFr36o3cxwMt27hTOQwXSJXV0wbLrNXRmmEzfpqQCkDwkxJzu3XgBKHPOINGCUejCpirB5WHmGvOkHgZOHdwrNuDnYpGZGrEhdu8Pv5lmEXrAWkppLmE4boaI5_hPoAP93aFfYdJmWlZKLK9cTT4NNo4EVX_zPByLlYawiggWZVQWNe_pUSKPCrzg1Thh_-hfhsMtQMquIbdV1YFp3tvO2BYE67BtWt91_5oo6nuuEB8JFOScpgu2KQWEbsZKO4j8VzXvBGQOYeH8nW3AZs7Qn0=w1318-h668-no)
+
 
 
 ###### Installation using a tarball with a local Composer
