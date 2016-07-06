@@ -7,10 +7,33 @@ Pré-requisitos
 * Zend Framework 2 [clique aqui](https://framework.zend.com/manual/2.4/en/index.html) para ver a documentação completa;
 * Banco de dados MYSQL - O MySQL já vem instalado e configurado no servidor Xampp [clique aqui](https://dev.mysql.com/doc/refman/5.7/en/) para ver a documentação;
 * Xampp (Apache + PHP + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
+* Composer [clique aqui](https://getcomposer.org/download/) para baixar o composer em sua maquina;
 * MySQL Workbench para acesso visual ao banco de dados e também modelagem visual Entidade Relacionalmento;
 * IDE eclipse com PHP configurado [clique aqui](https://eclipse.org/pdt/#download) e escolha eclipse de acordo com sua arquitetura;
-* Composer [clique aqui](https://getcomposer.org/download/) para baixar o composer em sua maquina;
 
+
+Instalando e usando o Xampp
+---------------------------
+
+XAMPP é completamente gratuito e fácil de instalar a distribuição Apache contendo MariaDB, PHP e Perl.
+O pacote de código aberto do XAMPP foi criada para ser extremamente fácil de instalar e de usar.
+
+###### Obtendo o arquivo de instalação do Xampp
+
+* Acesse a site [clique aqui](https://www.apachefriends.org/pt_br/index.html) para baixar o arquivo de instalação
+* Selecione de acordo com seu sistema operacional e sua arquitetura (Linux,Windows, MAC OS X);
+
+###### Instalando o Xampp no linux
+
+O arquivo de instalação do xampp para o sistema operacional Linux contem a extensão .run acesso o diretório onde o arquivo foi baixado pelo terminal de comandos.
+
+Ex: Fiz o download do xampp e ele foi baixado na pasta default do linux `/home/alyson/Downloads`, execute o comando abaixo para acessar o diretorio do arquivo e depois
+execute o arquivo de instalação do xampp como super usuário.
+
+```
+cd /home/alyson/Downloads
+sudo ./xampp-linux-x64-5.6.23-0-installer.run
+```
 
 Instalando e usando o Composer
 ---------------------------
