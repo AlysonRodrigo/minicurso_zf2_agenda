@@ -6,22 +6,34 @@ Pré-requisitos
 * PHP versão 5.5 ou maior - O PHP já vem instalado e configurado no servidor Xampp [clique aqui](http://php.net/manual/pt_BR/) para ver a documentação;
 * Zend Framework 2 [clique aqui](https://framework.zend.com/manual/2.4/en/index.html) para ver a documentação completa;
 * Banco de dados MYSQL - O MySQL já vem instalado e configurado no servidor Xampp [clique aqui](https://dev.mysql.com/doc/refman/5.7/en/) para ver a documentação;
-* Xampp (Apache + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
+* Xampp (Apache + PHP + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
 * MySQL Workbench para acesso visual ao banco de dados e também modelagem visual Entidade Relacionalmento;
 * IDE eclipse com PHP configurado [clique aqui](https://eclipse.org/pdt/#download) e escolha eclipse de acordo com sua arquitetura;
 * Composer [clique aqui](https://getcomposer.org/download/) para baixar o composer em sua maquina;
 
 
-Installation using Composer
+Instalando e usando o Composer
 ---------------------------
 
-The easiest way to create a new ZF2 project is to use [Composer](https://getcomposer.org/). If you don't have it already installed, then please install as per the [documentation](https://getcomposer.org/doc/00-intro.md).
+Composer é uma ferramenta para gerenciamento de dependência em PHP. Ele permite que você declare as bibliotecas
+que seu projeto depende e que irá gerenciar (instalação / atualização)-los para você.
 
+## Suponha
 
-Create your new ZF2 project:
+Você tem um projeto que depende de um número de bibliotecas.
+Algumas dessas bibliotecas dependem de outras bibliotecas.
+Compositor:
 
-    composer create-project -n -sdev zendframework/skeleton-application path/to/install
+Permite que você declare as bibliotecas que dependem.
+Descobre quais versões dos pacotes que podem e precisam ser instalados e instala-los (ou seja, ele baixa-los em seu projeto).
+Veja o capítulo Uso básico para mais detalhes sobre dependências declarando.
 
+## Requerimentos do sistema
+
+Compositor requer PHP 5.3.2+ para ser executado. Algumas configurações do PHP sensíveis e compilar bandeiras também são necessários,
+mas quando se utiliza o instalador você será avisado sobre quaisquer incompatibilidades.
+Para instalar pacotes a partir de fontes em vez de arquivos zip simples, você vai precisar git, svn, fóssil ou hg dependendo de como o pacote é controlado por versão.
+Compositor é multi-plataforma e nós nos esforçamos para fazê-lo funcionar igualmente bem em Windows, Linux e OSX.
 
 
 ### Installation using a tarball with a local Composer
