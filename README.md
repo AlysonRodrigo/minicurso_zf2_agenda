@@ -40,9 +40,11 @@ O processo de instalação do xampp é iniciado,
 
 ![URL](https://www.edivaldobrito.com.br/wp-content/uploads/2013/12/instalador-xampp.png)
 
-Segue um tutorial bacana da instalação do Xampp no linux:
+Segue um tutorial bacana da instalação completa do Xampp no linux e sua inicialização:
 
 [clique aqui](https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux)
+
+* Seguindo todo esse passo do tutorial, você está apto para iniciar a configuração de um projeto Zend Framework 2
 
 
 
