@@ -146,10 +146,10 @@ Selecione de acordo com sua plataforma
 Instalação e configuração inicial do Zend framework 2
 ---------------------------
 
-O procedimento de instalação do Zend framework 2 para execução desse minicurso, restringira a obtençao
- do skeleton do zend framework, atraves desse repositorio do projeto.
+O procedimento de instalação do Zend framework 2 para execução desse minicurso será através dos arquivos armazenado no meu
+repositorio GIT, devido a questões de atualizações para versão 3.0 que repositorio oficial do Zend Framework está disponibilizando no GitHub.
 
- [Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Skeleton do zend framework 2 para configurações iniciais.
+ [Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Skeleton do zend framework 2 no nosso projeto da agenda.
 
 If you don't have composer installed globally then another way to create a new ZF2 project is to download the tarball and install it:
 
