@@ -70,7 +70,7 @@ php -v
 
 Quando o comando acima for executado, a confirmação da criação da variavel de ambiente do deve ter como saida, a imagem abaixo:
 
-![URL](https://drive.google.com/open?id=0Bzq58NLbY4VlWk1pLVdiZzZQLW8)
+![URL](https://lh3.googleusercontent.com/O1wtcmXNheL0jS7Cq1LTnDD-BZg2i8yFxvybvnV4-ZWaFSSbbplpwzVp4X4fL6SIFaiZdqg-Z-dbUPSyqFhUOgMWmXmFiTmx7T5ARyDBeDtpmcHnR4n1CAteTGIMw8hbeY1lVCOaMSoyH4iut2pbnzdH85zCi7fjhId5y230hzro7CNmVMiVwubG779QyDFeubIP79oemyKGs793I4_4kpM3dRoT3u5Zv1WtmJXTAJcuSPCdDm__owH9jkTVeHJDimC9G3VIoG10K9wwGgnw_P-F4roGgnUmRaeBkPgJG20l8yTltagGq2p9nt4lNRBAb6tx3JhhTjJP8q7OH3XLcvt_YevH3frgYdkrjTrBcnCuKQttlJVc4AGcr3PZbDyIWTpWTnT9fRM6yRMgWWTL1N3-81YQo1Qu7ecPSZbDeJE34QvEaPWshRob4nPrb27IB2s_7Jkx8QWwYJehYs9Rij4ZSZKk-D7ltd-K-AciZjbk0wgU-2Qa2uZe_hELFs9n6h4tw_1wZKpKqZGNmuoaANsaMqrXQGooUS647Mmp2MYshCtFvdj-8BBJf_EnwwqjgRDG2mtjiqYtEUvC1tDC2v9N3uebFcY=w498-h87-no)
 
 
 Instalando e usando o Composer
