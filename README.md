@@ -1,11 +1,11 @@
-ZendSkeletonApplication
+Minicurso Começando com Zend Framework 2 com Doctrine - 15ª Semana da Computação CI - UFPB
 =======================
 
-Introduction
+Introdução
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+Esta é uma aplicação simples, esqueleto usando a camada e módulo ZF2 MVC
+sistemas. Este pedido destina-se a ser usada como um ponto de partida para aqueles
+desejam começar a desenvolver aplicação WEB PHP com ZF2.
 
 Installation using Composer
 ---------------------------
