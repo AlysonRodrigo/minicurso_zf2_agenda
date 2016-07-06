@@ -44,7 +44,7 @@ Segue um tutorial bacana da instalação completa do Xampp no linux e sua inicia
 
 [clique aqui](https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux)
 
-* Seguindo todos esses passos do tutorial, você está apto para iniciar a configuração de um projeto PHP usando Zend Framework 2
+Seguindo todos esses passos do tutorial, você está apto para iniciar a configuração de um projeto PHP usando Zend Framework 2
 
 
 ###### Criando uma variável de ambiente para sua instalação Xampp
