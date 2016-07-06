@@ -44,8 +44,21 @@ Segue um tutorial bacana da instalação completa do Xampp no linux e sua inicia
 
 [clique aqui](https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux)
 
-* Seguindo todo esse passo do tutorial, você está apto para iniciar a configuração de um projeto Zend Framework 2
+* Seguindo todos esses passos do tutorial, você está apto para iniciar a configuração de um projeto PHP usando Zend Framework 2
 
+
+###### Criando uma variável de ambiente para sua instalação Xampp
+
+Para que seja possivel executar comandos PHP no terminal de comando, é necessário criar uma variavel de ambiente para sua
+instalação Xampp, esse procedimento é crucial para utilização do composer, evitando possiveis erros de caminhos de acesso,
+ao comando `php`.
+
+Abra o arquivo `/etc/profile` para criação da variável de ambiente xampp, no final do arquivo adicione o codigo abaixo:
+
+```
+ export XAMP_HOME="/opt/lampp/bin"
+ export PATH=$XAMP_HOME:$PATH
+```
 
 
 Instalando e usando o Composer
