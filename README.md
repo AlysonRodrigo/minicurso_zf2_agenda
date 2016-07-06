@@ -104,6 +104,9 @@ A fonte é PHP simples.
 
 Há, em suma, duas maneiras de instalar Composer. Localmente como parte de seu projeto, ou globalmente como uma vasta executável do sistema.
 
+A criação da variavel de ambiente xampp auxiliará na praticidade da execução do composer no terminal de comando por isso execute os comandos
+abaixo dentro do diretorio `/opt/lampp/bin` do xampp para que o composer também seja carregado na variavel de ambiente do xampp
+
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('SHA384', 'composer-setup.php') === 'e115a8dc7871f15d853148a7fbac7da27d6c0030b848d9b3dc09e2a0388afed865e6a3d6b3c0fad45c48e2b5fc1196ae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
@@ -113,6 +116,15 @@ php -r "unlink('composer-setup.php');"
 
 O instalador irá apenas verificar algumas configurações do PHP e depois baixar composer.phar no seu diretório de trabalho.
 Este arquivo é o binário Composer. É um PHAR (arquivo PHP), que é um formato de arquivo para PHP que pode ser executado na linha de comando, entre outras coisas.
+
+Para confirmar que o composer foi instalado corretamente dentro do diretorio `bin` do xampp, digite o comando abaixo:
+
+```
+ php composer.phar -V
+```
+
+![URL](https://lh3.googleusercontent.com/pT4Oq2laobgr2jN0DLETvhqIsfjx3zofC67hfCrlGqiKnCBj-XaP1hnbjwnyoS4j4ePlHAMaHhVzoXn31b8t46-9HoNVerdykP9IJW6mEk_SGyvHCJbes6llxKS4a3HA1Fmz6KTmP32WCIW_E91kaE6k26dk21T0B60iAmejCS7Pfu0psK0VPT7cCO7nU504_jqhNA1UGvxUk0QFqTvIrB_1xlDQR6NXMvG1-SQcIRifLDOF061Y-Ii9Or_KRERF3GjXelfhRfiTE3ygOjjrIlwejxwettBDKeOODr0ny6UHKbwlK0JTV70qIUT9oAyBbNFMivKGIfa0ASQku0B0yEfKp-C9iCu6yghP0xiGOn7aSYS_e0ry-vkvR8Y3PVsB8nsNt_nXe83arcVEIbXq5v_k6dmJxLl-1ErcYLT7HkqFbUffW4ueWBU5i1uZYAAWeOKTb_NuMp2ogyuxUyyAs-rmsfDJQlVPJCAIKmntJLloiIH7QpfPEdd7CRvuNF-crjrHgqtfbVacIIyK8MZ5mmeZGtO2eZjMNGSPFWAOed3C0XMMFXMPlFCYhGbzTm4aEVLaTGAtBm0QK58eqdS_WpSP9DG8_hU=w363-h21-no)
+
 
 ###### Installation using a tarball with a local Composer
 
