@@ -3,9 +3,12 @@ Minicurso Começando com Zend Framework 2 com Doctrine - 15ª Semana da Computa�
 
 Pré-requisitos
 ------------
-* Banco de dados MYSQL - O MySQL já vem configurado no servidor xampp;
-* Xammp (Apache + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
-* Ambiente de desenvolvimento eclipse com PHP configurado [clique aqui](https://eclipse.org/pdt/#download) e escolha eclipse de acordo com sua arquitetura; 
+* PHP versão 5.5 ou maior - O PHP já vem instalado e configurado no servidor Xampp [clique aqui](http://php.net/manual/pt_BR/) para ver a documentação;
+* Zend Framework 2 [clique aqui](https://framework.zend.com/manual/2.4/en/index.html) para ver a documentação completa;
+* Banco de dados MYSQL - O MySQL já vem instalado e configurado no servidor Xampp [clique aqui](https://dev.mysql.com/doc/refman/5.7/en/) para ver a documentação;
+* Xampp (Apache + MYSQL) [clique aqui](https://www.apachefriends.org/pt_br/index.html) e escolha o xamp de acordo com sua arquitetura;
+* MySQL Workbench para acesso visual ao banco de dados e também modelagem visual Entidade Relacionalmento;
+* IDE eclipse com PHP configurado [clique aqui](https://eclipse.org/pdt/#download) e escolha eclipse de acordo com sua arquitetura;
 * Composer [clique aqui](https://getcomposer.org/download/) para baixar o composer em sua maquina;
 
 
