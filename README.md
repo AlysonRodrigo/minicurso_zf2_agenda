@@ -60,6 +60,18 @@ Abra o arquivo `/etc/profile` para criação da variável de ambiente xampp, no 
  export PATH=$XAMP_HOME:$PATH
 ```
 
+_ Encerre a sessão do seu computador ou reinicie. _
+
+Quando o computador iniciar, abra o terminal e digite o comando a baixo:
+
+```
+php -v
+```
+
+Quando o comando acima for executado, a confirmação da criação da variavel de ambiente do deve ter como saida, a imagem abaixo:
+
+![URL](https://drive.google.com/open?id=0Bzq58NLbY4VlWk1pLVdiZzZQLW8)
+
 
 Instalando e usando o Composer
 ---------------------------
