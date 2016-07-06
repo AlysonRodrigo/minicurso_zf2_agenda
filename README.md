@@ -40,6 +40,11 @@ O processo de instalação do xampp é iniciado,
 
 ![URL](https://www.edivaldobrito.com.br/wp-content/uploads/2013/12/instalador-xampp.png)
 
+Segue um tutorial bacana da instalação do Xampp no linux:
+
+[clique aqui](https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux)
+
+
 
 Instalando e usando o Composer
 ---------------------------
