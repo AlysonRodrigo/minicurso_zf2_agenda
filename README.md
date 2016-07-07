@@ -223,3 +223,11 @@ para que a configuração inicial do Zend framework 2 ser concluida com sucesso:
 ![URL](https://lh3.googleusercontent.com/GeTobJZnCphlbJFBRnZ2twVOsAygAyivlqMFIKgne_noW5KelMuoin6stCXagT3d8Tb12U3yXczCCO_hh0Csj3MsGGfSOvoW0_pYjPXwxNU-oLYu-jEhj425Wd2ameKe2eGAN1m9l-zIZTPZeEYaTnViAzZ31zfi_vJoTQ_0f3WRxyRDvn9P8nTuuwyhQcXJ4Ge0TsmJ8lhy0GRutlAfti5731T1KV2Yusf4N924149hFEs0_AIc0RBlL7l2pdT4B57RSD7QVhgiEeyA_NxQDS9SHOOIYSGb4hu28BUa_LhOU8sCFTV95sPT00X9-Mh_Kv-9ZkR4guBZx7imfFe1zv3ylPoLdgNcXKdFVVpKioEkDwDyVo0ceKGZDU3bZ40bFLS_zgj8uxvmxelHp0u_b4aekFwJpJLNKSe2wmlo144t1nbhlPbNXUNU8p7f34EQkwTPa-tRKikgEHf7JLDgVdhLNTgxtP61Z3CAZQiowMjU6dNMQNu8hCz37pmyoWMfDhClvvvne7lvQSBFTVhhoc9dpBeLTWufqEhkE5T2sfYwk32feZEppLQ179x3QJPjUC5zlpKC-BTEj6qmfdbJzt_0BFapajY=w1345-h597-no)
 
 
+Instalando pacotes e dependências do Zend framework 2 com Composer
+---------------------------
+
+O ultimo passo para que a configuração inicial do Zend framework 2 seja concluida é a instalação dos pacotes e dependência do
+Zend framework 2, através do composer, o arquivo utilizado para instalar os pacotes no seu projeto é o `composer.json` no diretorio principal
+do seu projeto. Veja uma estrutura minimista essencial para configurar os pacotes e dependência do Zend framework 2:
+
+![URL](https://lh3.googleusercontent.com/vqgPS6cjupB2Rw0GUpmbGTZrtxhIfFXWIRQ_tYEBud3D453AX-kdLvprB0-5oWrfBAbK7dBMFWSSXSBuW0whL47rZcUQsPGcvqv20GKX-8XHz8ONjrcKIEMWXjBCgm14GSUlgIEkTJZxeyuKhfGBXMrr72UH6lmZDjyHISX1PVm54MD6NJDV9aDdE2TBVq7HTVPewv9p9tGEcpXGH9pdpSEGEBx7E6TTwH7sEmR7jHPiZb-Es_8HZVSwXTS8XDF-ABggcOZmcDYjN63cpkJnjl0cFxwr_UOnsktdF-prcZ277MuNLuX2hbf0va4XQLXdCM3rOnNuGR9YH7NYJhc8wOCJcgwEzSYOYiHiWWZR8j9fpUYo1kcNekSk4eXZyjDne0VcX9ahIuh54pqCBlwyhImdyxefdtcQQmfQnlKCqwVKTA_bu0JutU5wE094K28SsisbHoBS4lwgXUHDqY4WBQs76uhjN2AIV94dk42bOJ0lBsyvR1Znpaog3PbjVw0UEy73uhXDE15L-91OawBeQp6HC-KgmbrYXFOALh6BE4gvZmC09dA9sNwnAUhVZwl4i1vDioBCWrTNLU-w74A2lA7iXpVDIEE=w1125-h597-no)
