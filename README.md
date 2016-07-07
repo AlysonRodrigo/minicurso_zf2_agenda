@@ -207,14 +207,19 @@ Certifique-se que NameVirtualHost é definido e definido como "*: 80" ou similar
     </VirtualHost>
 
 
-Reinicie o apache executando o comando abaixo!
-
-__Acesse a url no browser de sua preferência:__
-
-`http://zf2-tutorial.localhost`
-
-Observe que no browser exibirá um
+Reinicie o apache executando o comando abaixo:
 
 ```
  ./opt/lampp/ctlscript.sh restart apache
 ```
+
+__ Logo em seguida acesse a url no browser de sua preferência:__
+
+`http://zf2-tutorial.localhost`
+
+Observe que no browser exibirá um erro, devido está faltando um ultimo passo
+para que a configuração inicial do Zend framework 2 ser concluida com sucesso:
+
+![URL](https://lh3.googleusercontent.com/GeTobJZnCphlbJFBRnZ2twVOsAygAyivlqMFIKgne_noW5KelMuoin6stCXagT3d8Tb12U3yXczCCO_hh0Csj3MsGGfSOvoW0_pYjPXwxNU-oLYu-jEhj425Wd2ameKe2eGAN1m9l-zIZTPZeEYaTnViAzZ31zfi_vJoTQ_0f3WRxyRDvn9P8nTuuwyhQcXJ4Ge0TsmJ8lhy0GRutlAfti5731T1KV2Yusf4N924149hFEs0_AIc0RBlL7l2pdT4B57RSD7QVhgiEeyA_NxQDS9SHOOIYSGb4hu28BUa_LhOU8sCFTV95sPT00X9-Mh_Kv-9ZkR4guBZx7imfFe1zv3ylPoLdgNcXKdFVVpKioEkDwDyVo0ceKGZDU3bZ40bFLS_zgj8uxvmxelHp0u_b4aekFwJpJLNKSe2wmlo144t1nbhlPbNXUNU8p7f34EQkwTPa-tRKikgEHf7JLDgVdhLNTgxtP61Z3CAZQiowMjU6dNMQNu8hCz37pmyoWMfDhClvvvne7lvQSBFTVhhoc9dpBeLTWufqEhkE5T2sfYwk32feZEppLQ179x3QJPjUC5zlpKC-BTEj6qmfdbJzt_0BFapajY=w1345-h597-no)
+
+
