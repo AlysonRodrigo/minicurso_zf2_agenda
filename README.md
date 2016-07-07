@@ -8,4 +8,19 @@ sistemas. Este framework destina-se a ser usado como um ponto de partida para aq
 desejam começar a desenvolver aplicação WEB PHP com ZF2.
 
 
-### Estrutura do esquelo de uma aplicação com Zend framework 2 ###
+## Estrutura do esquelo de uma aplicação com Zend framework 2
+
+###### A pasta config
+
+
+###### A pasta data
+
+
+###### A pasta module
+
+
+###### A pasta public
+
+
+###### A pasta vendor
+
