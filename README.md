@@ -8,4 +8,4 @@ sistemas. Este framework destina-se a ser usado como um ponto de partida para aq
 desejam começar a desenvolver aplicação WEB PHP com ZF2.
 
 
-*** Estrutura do esquelo de uma aplicação com Zend framework 2 ***
+### Estrutura do esquelo de uma aplicação com Zend framework 2 ###
