@@ -231,3 +231,18 @@ Zend framework 2, através do composer, o arquivo utilizado para instalar os pac
 do seu projeto. Veja uma estrutura minimista essencial para configurar os pacotes e dependência do Zend framework 2:
 
 ![URL](https://lh3.googleusercontent.com/vqgPS6cjupB2Rw0GUpmbGTZrtxhIfFXWIRQ_tYEBud3D453AX-kdLvprB0-5oWrfBAbK7dBMFWSSXSBuW0whL47rZcUQsPGcvqv20GKX-8XHz8ONjrcKIEMWXjBCgm14GSUlgIEkTJZxeyuKhfGBXMrr72UH6lmZDjyHISX1PVm54MD6NJDV9aDdE2TBVq7HTVPewv9p9tGEcpXGH9pdpSEGEBx7E6TTwH7sEmR7jHPiZb-Es_8HZVSwXTS8XDF-ABggcOZmcDYjN63cpkJnjl0cFxwr_UOnsktdF-prcZ277MuNLuX2hbf0va4XQLXdCM3rOnNuGR9YH7NYJhc8wOCJcgwEzSYOYiHiWWZR8j9fpUYo1kcNekSk4eXZyjDne0VcX9ahIuh54pqCBlwyhImdyxefdtcQQmfQnlKCqwVKTA_bu0JutU5wE094K28SsisbHoBS4lwgXUHDqY4WBQs76uhjN2AIV94dk42bOJ0lBsyvR1Znpaog3PbjVw0UEy73uhXDE15L-91OawBeQp6HC-KgmbrYXFOALh6BE4gvZmC09dA9sNwnAUhVZwl4i1vDioBCWrTNLU-w74A2lA7iXpVDIEE=w1125-h597-no)
+
+#### Execute os comandos abaixo para iniciar o download dos pacotes: ####
+
+```
+ php composer.phar self-update
+ php composer.phar install
+```
+
+Depois de baixar todos os pacotes necessário do Zend framework 2 pelo composer, caso você não tenha errado em algum procedimento
+acesse a URL `http://zf2-tutorial.localhost` novamente, será exibido no seu browser, a mesma coisa que a imagem abaixo:
+
+![URL](https://framework.zend.com/images/manual/user-guide.skeleton-application.hello-world.png)
+
+> Ótimo, vamos começar a conhecer a estrutura do Zend framework 2 e começar a elaboração do nosso projeto de uma agenda pessoal.
+
