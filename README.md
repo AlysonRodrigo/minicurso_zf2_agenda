@@ -149,54 +149,32 @@ Instalação e configuração inicial do Zend framework 2
 O procedimento de instalação do Zend framework 2 para execução desse minicurso será através dos arquivos armazenado no meu
 repositorio GIT, devido a questões de atualizações para versão 3.0 que repositorio oficial do Zend Framework está disponibilizando no GitHub.
 
- [Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Skeleton do zend framework 2 no nosso projeto da agenda.
+[Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Zend framework 2 que usaremos no nosso projeto da agenda.
 
-If you don't have composer installed globally then another way to create a new ZF2 project is to download the tarball and install it:
-
-1. Download the [tarball](https://github.com/zendframework/ZendSkeletonApplication/tarball/master), extract it and then install the dependencies with a locally installed Composer:
-
-        cd my/project/dir
-        curl -#L https://github.com/zendframework/ZendSkeletonApplication/tarball/master | tar xz --strip-components=1
-    
-
-2. Download composer into your project directory and install the dependencies:
-
-        curl -s https://getcomposer.org/installer | php
-        php composer.phar install
-
-If you don't have access to curl, then install Composer into your project as per the [documentation](https://getcomposer.org/doc/00-intro.md).
+Apois o download do arquivo, descompacte o projeto inicial da agenda, dentro da pasta `/opt/lampp/htdocs`
 
 Web server setup
 ----------------
 
 ### PHP CLI server
 
-The simplest way to get started if you are using PHP 5.4 or above is to start the internal PHP cli-server in the root
-directory:
+A maneira mais simples para começar, se você estiver usando PHP 5.4 ou superior é para iniciar o cli-servidor PHP interna na raiz
+diretório do seu projeto:
 
     php -S 0.0.0.0:8080 -t public/ public/index.php
 
-This will start the cli-server on port 8080, and bind it to all network
+Isto irá iniciar o cli-servidor na porta 8080, e ligá-la para toda a rede
 interfaces.
 
-**Note:** The built-in CLI server is *for development only*.
+**Nota:** O servidor CLI built-in é * somente para o desenvolvimento *.
 
-### Vagrant server
-
-This project supports a basic [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) configuration with an inline shell provisioner to run the Skeleton Application in a [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-
-1. Run vagrant up command
-
-    vagrant up
-
-2. Visit [http://localhost:8085](http://localhost:8085) in your browser
-
-Look in [Vagrantfile](Vagrantfile) for configuration details.
+Para uma solução mais profissional, precisamos seguir dois passos simples
+que torna sua aplicação disponivel para uso no browser de sua preferencia.
 
 ### Apache setup
 
-To setup apache, setup a virtual host to point to the public/ directory of the
-project and you should be ready to go! It should look something like below:
+Para  configuração do apache de forma mais profissional, devemos configurar um virtual host para apontar para a pasta public/ do
+projeto agenda! Deve ser algo como abaixo:
 
     <VirtualHost *:80>
         ServerName zf2-app.localhost
@@ -212,37 +190,9 @@ project and you should be ready to go! It should look something like below:
         </Directory>
     </VirtualHost>
 
-### Nginx setup
 
-To setup nginx, open your `/path/to/nginx/nginx.conf` and add an
-[include directive](http://nginx.org/en/docs/ngx_core_module.html#include) below
-into `http` block if it does not already exist:
+Reinicie o apache executando o comando abaixo, agora você deve estar pronto para ir!
 
-    http {
-        # ...
-        include sites-enabled/*.conf;
-    }
-
-
-Create a virtual host configuration file for your project under `/path/to/nginx/sites-enabled/zf2-app.localhost.conf`
-it should look something like below:
-
-    server {
-        listen       80;
-        server_name  zf2-app.localhost;
-        root         /path/to/zf2-app/public;
-
-        location / {
-            index index.php;
-            try_files $uri $uri/ @php;
-        }
-
-        location @php {
-            # Pass the PHP requests to FastCGI server (php-fpm) on 127.0.0.1:9000
-            fastcgi_pass   127.0.0.1:9000;
-            fastcgi_param  SCRIPT_FILENAME /path/to/zf2-app/public/index.php;
-            include fastcgi_params;
-        }
-    }
-
-Restart the nginx, now you should be ready to go!
+```
+ ./opt/lampp/ctlscript.sh restart apache
+```
