@@ -207,7 +207,13 @@ Certifique-se que NameVirtualHost é definido e definido como "*: 80" ou similar
     </VirtualHost>
 
 
-Reinicie o apache executando o comando abaixo, agora você deve estar pronto para ir!
+Reinicie o apache executando o comando abaixo!
+
+__Acesse a url no browser de sua preferência:__
+
+`http://zf2-tutorial.localhost`
+
+Observe que no browser exibirá um
 
 ```
  ./opt/lampp/ctlscript.sh restart apache
