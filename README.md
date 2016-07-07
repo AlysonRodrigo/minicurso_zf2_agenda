@@ -151,7 +151,11 @@ repositorio GIT, devido a questões de atualizações para versão 3.0 que repos
 
 [Clique aqui](https://github.com/AlysonRodrigo/minicurso_zf2_agenda/archive/apendice.zip) para obter o pacote inicial do Zend framework 2 que usaremos no nosso projeto da agenda.
 
-Apois o download do arquivo, descompacte o projeto inicial da agenda, dentro da pasta `/opt/lampp/htdocs`
+
+__ Apois o download do arquivo, descompacte o projeto inicial da agenda, dentro da pasta `/opt/lampp/htdocs` __
+
+Certifique-se de atualizar seu /etc/hosts ou c:\ windows\system32\drivers\ etc\hosts
+ para que zf2-app.localhost é mapeado para 127.0.0.1. O site pode ser acessado usando http://zf2-tutorial.localhost.
 
 Web server setup
 ----------------
@@ -168,13 +172,25 @@ interfaces.
 
 **Nota:** O servidor CLI built-in é * somente para o desenvolvimento *.
 
-Para uma solução mais profissional, precisamos seguir dois passos simples
-que torna sua aplicação disponivel para uso no browser de sua preferencia.
-
 ### Apache setup
 
-Para  configuração do apache de forma mais profissional, devemos configurar um virtual host para apontar para a pasta public/ do
-projeto agenda! Deve ser algo como abaixo:
+Para  configuração do apache de forma mais profissional para desenvolvimento, devemos configurar um virtual host, e alterar o arquivo `hosts` de forma que
+a configuração inicial seja efetuada com sucesso, primeiro execute o procedimento descrito a baixo:
+
+Certifique-se de atualizar seu /etc/hosts ou c:\windows\system32\drivers\etc\hosts para que zf2-tutorial.localhost
+mapeando para 127.0.0.1. O site pode ser acessado usando http: //zf2-tutorial.localhost.
+
+```
+127.0.0.1               zf2-tutorial.localhost localhost
+```
+
+Configuração do virtual host é geralmente feito dentro httpd.conf ou de /httpd-vhosts.conf.
+Se você estiver usando httpd-vhosts.conf, garantir que este arquivo é incluído pelo seu arquivo httpd.conf principal.
+Algumas distribuições Linux (ex: Ubuntu) os pacotes do Apache os arquivos de configuração são armazenados em /etc/apache2
+e criar um arquivo por host virtual dentro /etc/apache2/sites-enabled pasta. Neste caso, você iria colocar o bloco virtual host
+abaixo no o arquivo /etc/apache2/ sites-enabled/zf2-tutorial.
+
+Certifique-se que NameVirtualHost é definido e definido como "*: 80" ou similar, e, em seguida, definir um host virtual ao longo destas linhas:
 
     <VirtualHost *:80>
         ServerName zf2-app.localhost
