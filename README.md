@@ -1,4 +1,4 @@
-Minicurso Começando com Zend Framework 2 com Doctrine - 15ª Semana da Computação CI - UFPB
+Minicurso Começando com Zend Framework 2 e Doctrine - 15ª Semana da Computação CI - UFPB
 =======================
 
 Pré-requisitos
@@ -70,8 +70,7 @@ php -v
 
 Quando o comando acima for executado, a confirmação da criação da variavel de ambiente do deve ter como saida, a imagem abaixo:
 
-![URL](https://lh3.googleusercontent.com/guzmfXnEm_n-aDLs_RUAqy3VGo25Fhi_Jo2kl7ErGF3HWJzXNjn74g5KlLRlJUE6CIQBf9wRtk1wbO_o9IxtnFSlEV-_kr-qKjvqe_t2ho7I5VxWJcHSFln6JCnMe9sJJR4XuyslBuleyMdrAeGbZgjDV26_r9bV5Nu-HiwNz8X26-1c8xe3N4JT20zPK-lyRblDhPJv3yMy7MQ56RLlYI-_3UAFwsRs9BBhhGe4GyLIuZ50cEaFAojY5yfxlG6caPpiMOjZkibpKxzORV63A61EtMGFxTYzxti1FW_77wlTctga4JFfw47KwXawzY_ALfMeOou4jAGVzjbEH1xuidg1zGTLRIhI4KmemsQEAHTFTE4lY84SXdwjx_o3FxlWh-dnVC-Pp7pP3dfhXR4q2RbJ6pRf-ZYbIFpQSAF5bU5OQU63GeoYCpwWoWYmYttdCbAFuKKBgDp8i7EC7JgGNHvdSp4wZtVs7DzXjEyuhG80HYXBjVXN7MYXc0tELxM-Zs4Vj6zBzfFDEKS6ZDbc4yBCAkr6gGI7SsO_XmiLPiuFt-rUP1oKgdL9Q_pATOBKemOzccwASHID_R3XWsKalroE2Uijnoc=w520-h55-no)
-
+![URL](https://lh3.googleusercontent.com/NyqIsFvon0AmXbERk_rOhU7cW_SXsV05VKcSZMueici87J2gWBydor2ybf0wEwdaM7nk8KvWM5LNUrLs9U8h4_xKM89P8oC8ixr-QAE92a4JIfDnCGwTZbJXrE3dkDgPfO2f4oWH6dWG4kAb7_ZVgvaOD4X6Nmop2h-NqJeKUZ0E0NNDcFpXh-f1BWEdlWZog3q3RIXgTViIUlSVlxeO1pMI2B6RBHaDL6jDkv4HE-bF1PFwGo1UWMiXkq-DuN1dKbNsFu85wmj-u9N2Nwm6Unlb0rqctbpRAmt_YhnbeoBWivmSbynGYWjmkLD8fvsUJccuQCm6s_M9UeWjxtCF1c_NHXGZc9Ox6BL6FYOR-GrVAaV8dT0C8__XsBlpPxjEQOsgivAPx78rajuzBo_lhPxmXZ8-5nxa9DqTgDeCBbvprG8PXDg6EjIvn_0jc04Y07clmEpTJc7Jemo9a6UzwUqsbsRRPGyFEWXoXah_M5JoPABb8dAi7OmLHSqC7VzEnU-GBwFrjxA_OCwRsuJNUy_OLtvSZCIOAkkeOHM8x5Z0yloY34a7RHEtqgEf-ojzIfa8ZCTJUQ1dQD55wxm2xXLcDzk0gS8=w520-h55-no)
 
 Instalando e usando o Composer
 ---------------------------
@@ -123,8 +122,7 @@ Para confirmar que o composer foi instalado corretamente dentro do diretorio `bi
  php composer.phar -V
 ```
 
-![URL](https://lh3.googleusercontent.com/pT4Oq2laobgr2jN0DLETvhqIsfjx3zofC67hfCrlGqiKnCBj-XaP1hnbjwnyoS4j4ePlHAMaHhVzoXn31b8t46-9HoNVerdykP9IJW6mEk_SGyvHCJbes6llxKS4a3HA1Fmz6KTmP32WCIW_E91kaE6k26dk21T0B60iAmejCS7Pfu0psK0VPT7cCO7nU504_jqhNA1UGvxUk0QFqTvIrB_1xlDQR6NXMvG1-SQcIRifLDOF061Y-Ii9Or_KRERF3GjXelfhRfiTE3ygOjjrIlwejxwettBDKeOODr0ny6UHKbwlK0JTV70qIUT9oAyBbNFMivKGIfa0ASQku0B0yEfKp-C9iCu6yghP0xiGOn7aSYS_e0ry-vkvR8Y3PVsB8nsNt_nXe83arcVEIbXq5v_k6dmJxLl-1ErcYLT7HkqFbUffW4ueWBU5i1uZYAAWeOKTb_NuMp2ogyuxUyyAs-rmsfDJQlVPJCAIKmntJLloiIH7QpfPEdd7CRvuNF-crjrHgqtfbVacIIyK8MZ5mmeZGtO2eZjMNGSPFWAOed3C0XMMFXMPlFCYhGbzTm4aEVLaTGAtBm0QK58eqdS_WpSP9DG8_hU=w363-h21-no)
-
+![URL](https://lh3.googleusercontent.com/lo5v87fhPaAA7DVEOCIhPrvoU1V0b5zljtQi_TfJsOjfPCgi10TDSDxv3ypAb6okfK0Sz5wevpUN7YadBpFBETQylWKjDfTkwl4EnQfn-fW3EQYqoHSfjz6V05S-rKyQOYQ11RdZLAe7eybE1ppGXaOhnAGENOKXZXantc79bLw4xN9I62N7v9M_aJOvDLGqHB5OV6U5pg81qJl-J1Flf1UpwLog3o3jHQ_RxjwMgGq2Zps9REB2lU1KIMTJW-fgzmM_kYgPuoL9Zv5G1RWLlY15-h4eM2MP1Hhu5ccnFvLZw1wsuBG2hEONEN-bo5uamhT7LHM-gXmfPMwcou3Qjktrson0V3y0Qh2anLAjtkWnGHIIWoy-xo1ZD2ix46CP7PTJzoyLrflY4ioGh9-ua1vitqtykra3usap4lu3quMAOaMx6dgdGfr-TWEi1o0kmW6n4FIPH0s1pxwFYF4QMkE-F_9w71tlyXtfXNl8hX3jBiUtQFA-De3sfd3mbtiIJLYnJ98tlp1veqOH1TFSDcTA0gLdqNkB6e65xbjPOokjMSKaVABhsMKYPUQx9UnUbg-S_UAQf31krygDjizIrxl32MnG5U4=w363-h21-no)
 
 Instalação e configuração do MySQL Workbench
 ---------------------------
