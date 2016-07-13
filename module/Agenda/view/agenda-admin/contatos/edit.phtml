@@ -1,0 +1,21 @@
+<h1>Nova categoria</h1>
+
+<br/>
+
+<?php
+
+$form = $this->form;
+
+$form->setAttribute('action', $this->url('agenda-admin-interna', array('controller' => 'contatos', 'action' => 'edit')));
+
+$form->prepare();
+echo $this->form()->openTag($form);
+echo $this->formHidden($form->get('id'));
+echo $this->formRow($form->get('nome'));
+echo $this->formRow($form->get('email'));
+echo $this->formRow($form->get('telefone'));
+echo $this->formRow($form->get('celular'))."<br/>";
+echo $this->formSubmit($form->get('submit'));
+echo $this->form()->closeTag($form);
+
+?>

@@ -1,0 +1,43 @@
+<h1>Meus Contatos</h1>
+<br/>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<a class="btn btn-info" href="<?php echo $this->url('agenda-admin',array('controller' => 'contatos','action' => 'new')) ?>">
+  Novo</a>
+</div>
+<div class="panel-body">
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Telefone</th>
+      <th>Celular</th>
+      <th>Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php foreach($data as $dados):  ?>
+      <tr>
+        <td><?php echo $dados->getId()   ?></td>
+        <td><?php echo $dados->getNome()  ?></td>
+        <td><?php echo $dados->getEmail()  ?></td>
+        <td><?php echo $dados->getTelefone()  ?></td>
+        <td><?php echo $dados->getCelular()  ?></td>
+        <td>
+          <a href="<?php echo $this->url('agenda-admin-interna',array('controller' => 'contatos','action' => 'edit','id' => $dados->getId())) ?>">Editar</a>
+          <a href="<?php echo $this->url('agenda-admin-interna',array('controller' => 'contatos','action' => 'delete','id' => $dados->getId())) ?>">Deletar</a>
+        </td>
+      </tr>
+    <?php endforeach; ?>
+  </tbody>
+</table>
+
+<br/>
+<?php echo $this->paginationControl($this->data,
+    'Sliding',
+    'paginator.phtml'); ?>
+</div>
+</div>
