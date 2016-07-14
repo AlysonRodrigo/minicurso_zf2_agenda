@@ -11,7 +11,7 @@ namespace AgendaAdmin\Filter;
 
 use Zend\InputFilter\InputFilter;
 
-class ContatoFilter extends InputFilter
+class UsuarioFilter extends InputFilter
 {
 
     public function __construct()
@@ -51,7 +51,7 @@ class ContatoFilter extends InputFilter
         ));
 
         $this->add(array(
-            'name'     => 'telefone',
+            'name'     => 'senha',
             'required' => true,
             'filters' => array(
                 array('name' => 'StringTrim'),
@@ -61,7 +61,7 @@ class ContatoFilter extends InputFilter
                 array(
                     'name' => 'NotEmpty',
                     'options' => array(
-                        'messages' => array('isEmpty' => 'Telefone nao pode está em branco')
+                        'messages' => array('isEmpty' => 'Senha nao pode está em branco')
                     )
                 )
             )

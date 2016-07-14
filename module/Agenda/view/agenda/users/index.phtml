@@ -1,0 +1,33 @@
+<h1>Users</h1>
+<br/>
+
+<a href="<?php echo $this->url('agenda-admin',array('controller' => 'users','action' => 'new')) ?>">New</a>
+
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php foreach($data as $dados):  ?>
+      <tr>
+        <td><?php echo $dados->getId()   ?></td>
+        <td><?php echo $dados->getNome()  ?></td>
+        <td><?php echo $dados->getEmail()  ?></td>
+        <td>
+          <a href="<?php echo $this->url('agenda-admin-interna',array('controller' => 'users','action' => 'edit','id' => $dados->getId())) ?>">Editar</a>
+          <a href="<?php echo $this->url('agenda-admin-interna',array('controller' => 'users','action' => 'delete','id' => $dados->getId())) ?>">Deletar</a>
+        </td>
+      </tr>
+    <?php endforeach; ?>
+  </tbody>
+</table>
+
+<br/>
+<?php echo $this->paginationControl($this->data,
+    'Sliding',
+    'paginator.phtml'); ?>

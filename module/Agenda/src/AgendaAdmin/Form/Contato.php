@@ -71,7 +71,7 @@ class Contato extends Form
         $submit = new Submit('submit');
         $submit->setAttributes(array(
             'value' => 'SALVAR',
-            'class' => 'btn-success'
+            'class' => 'btn btn-success'
         ));
 
         $this->add($submit);

@@ -19,8 +19,10 @@ use AgendaAdmin\Form\Login as LoginForm;
 class AuthController extends AbstractActionController
 {
 
+
     public function indexAction()
     {
+        global $error;
 
         $form = new LoginForm();
         $error = false;

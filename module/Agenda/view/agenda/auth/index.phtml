@@ -22,6 +22,10 @@ $this->headTitle($title);
             <p><b>Usuário ou senha inválidos</b></p>
           <?php endif; ?>
 
+          <?php if ($this->cadastro): ?>
+            <p><b>Usuário ou senha inválidos</b></p>
+          <?php endif; ?>
+
         </div>
 
         <?php echo $this->form()->openTag($form)?>
@@ -54,7 +58,7 @@ $this->headTitle($title);
 
           <div class="col-sm-12 controls">
             <input class="btn btn-success" type="submit" value="Login">
-            <!--<a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>-->
+            <a id="btn-fblogin" href="<?php echo $this->url('agenda-user',array('controller' => 'users', 'action' => 'new')); ?>" class="btn btn-primary">Criar uma conta</a>
 
           </div>
         </div>

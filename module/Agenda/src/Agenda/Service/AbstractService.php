@@ -35,6 +35,7 @@ class AbstractService
 
         $this->em->persist($entityData);
         $this->em->flush();
+
         return $entityData;
     }
 

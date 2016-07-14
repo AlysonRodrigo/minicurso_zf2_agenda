@@ -22,6 +22,15 @@ return array(
                     ),
                 ),
             ),
+            'agenda-user' => array(
+                'type' => 'Segment',
+                'options' => array(
+                    'route' => '/agenda/[:controller[/:action]][/:id]',
+                    'constraints' => array(
+                        'id'=> '[0-9]+'
+                    )
+                ),
+            ),
             'agenda-admin-interna' => array(
                 'type' => 'Segment',
                 'options' => array(
@@ -103,7 +112,7 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Agenda\Controller\Index' => 'Agenda\Controller\IndexController',
-            'users' => 'AgendaAdmin\Controller\UsersController',
+            'users' => 'Agenda\Controller\UsersController',
             'contatos' => 'AgendaAdmin\Controller\ContatosController',
             'agenda/auth' => 'Agenda\Controller\AuthController',
         ),

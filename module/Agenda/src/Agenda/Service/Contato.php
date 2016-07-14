@@ -25,14 +25,16 @@ class Contato extends AbstractService
 
         $entity = new $this->entity($data);
 
-        $usuario = $this->em->getReference('Agenda\Entity\Usuario',$usuario->getId());
-        $entity->setUsuario($usuario);
+            $usuario = $this->em->getReference('Agenda\Entity\Usuario',$usuario->getId());
+            $entity->setUsuario($usuario);
 
-        $this->em->persist($entity);
-        $this->em->flush();
+            $this->em->persist($entity);
+            $this->em->flush();
 
 
-        return $entity;
+            return $entity;
+
+
     }
 
     public function updateContato(array $data,Usuario $usuario){

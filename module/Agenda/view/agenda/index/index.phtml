@@ -1,8 +1,5 @@
-<h1>Contatos</h1>
-<br/>
-
-<ul>
-    <?php foreach($contatos as $contato): ?>
-        <li><?php  echo $contato->getNome(); ?></li>
-    <?php endforeach; ?>
-</ul>
+<div class="jumbotron">
+    <h1>Projeto Agenda Online</h1>
+    <p>Projeto modelo de uma aplicação Zend Framework 2 com Doctrine ORM</p>
+    <p><a class="btn btn-primary btn-lg" href="<?php echo $this->url('agenda-user',array('controller' => 'users', 'action' => 'new')) ?>" role="button">Clique aqui para começar</a></p>
+</div>

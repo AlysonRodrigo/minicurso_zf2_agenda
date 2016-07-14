@@ -8,6 +8,7 @@
 
 namespace AgendaAdmin\Form;
 
+use AgendaAdmin\Filter\UsuarioFilter;
 use Zend\Form\Element\Hidden;
 use Zend\Form\Element\Password;
 use Zend\Form\Element\Submit;
@@ -22,7 +23,8 @@ class Usuario extends Form
         parent::__construct('usuario');
 
         $this->setAttribute('method','post');
-        //$this->setInputFilter(new CategoriaFilter());
+
+        $this->setInputFilter(new UsuarioFilter());
 
         $id = new Hidden('id');
 
@@ -64,7 +66,7 @@ class Usuario extends Form
         $submit = new Submit('submit');
         $submit->setAttributes(array(
             'value'  => 'SALVAR',
-            'class' => 'btn-success'
+            'class' => 'btn btn-success'
         ));
 
         $this->add($submit);
